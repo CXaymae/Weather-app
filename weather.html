@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="weather.css">
+    <title>Weathery</title>
+</head>
+<body>
+    <div class="box">
+        <div class="search">
+            <input type="text" placeholder="Type to search..." class="s-bar">
+            <button> <i class="fa fa-search" width="1.5rem"></i> </button>
+        </div>
+
+        <div class="weather details">
+            <h2 class="location">Weather in Madrid</h2>
+            <h1 class="temperature">23°C</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="image">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity: 30%</div>
+            <div class="wind">Wind Speed: 13Km/h</div>
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
